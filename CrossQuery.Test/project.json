@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "xunit": "2.1.0"
+  },
+
+  "frameworks": {
+    "net462": {
+      "frameworkAssemblies": {
+        "System.Runtime": {
+          "type": "build",
+          "version": ""
+        },
+        "dependencies": {
+          "Microsoft.CSharp": "4.*",
+          "System.Dynamic.Runtime": "4.*",
+          "System.IO": "4.*",
+          "System.Reflection.TypeExtensions": "4.*",
+          "System.Runtime.Extensions": "4.*"
+        }
+      }
+    }
+  }
+}
